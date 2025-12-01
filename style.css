@@ -121,6 +121,11 @@ footer{
     padding-right: 15px;
 }
 
-.lista_4 {
+.lista_4 a{
     text-decoration: none;
+    color: orangered;
+}
+
+.naranja{
+    color: orangered;
 }
