@@ -83,8 +83,10 @@ footer{
 .seccion2{
     border-radius: 15px;
     background-color: rgba(6, 12, 58, 0.425);
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
     margin-top: 10px;
+    padding-right: 15px;
 }
 
 
@@ -92,7 +94,33 @@ footer{
     list-style-type: square;
 }
 
-
 .column{
     flex-direction: column;
+}
+
+.imagen_seccion2 img{
+    width: 850px;
+    height: auto;
+}
+
+.seccion3{
+    border-radius: 15px;
+    background-color: rgba(6, 12, 58, 0.425);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+.seccion4{
+    border-radius: 15px;
+    background-color: rgba(6, 12, 58, 0.425);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+.lista_4 {
+    text-decoration: none;
 }
