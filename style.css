@@ -129,3 +129,80 @@ footer{
 .naranja{
     color: orangered;
 }
+
+ td, th{
+    border-right: 1px rgba(255, 255, 255, 0.438) solid;
+    padding: 5px;
+    text-align:center;
+}
+
+.border_left {
+    border-left: 1px rgba(255, 255, 255, 0.438) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.438) solid ;
+}
+
+.border_bottom{
+    border-bottom: 1px rgba(255, 255, 255, 0.438) solid ;
+}
+
+th{
+    border-top: 1px rgba(255, 255, 255, 0.438) solid ;
+}
+
+.seccion5{
+    border-radius: 15px;
+    background-color: rgba(6, 12, 58, 0.425);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.casilla{
+    background-color: rgba(3, 3, 68, 0.582);
+}
+
+table{
+    width: 840px;
+    height: 290px;
+}
+
+.footer{
+    background-color: rgba(6, 12, 58, 0.425);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 0;
+    padding: 12px;
+    border-top: 1px solid white;
+}
+
+.seccion6{
+    border-radius: 15px;
+    background-color: rgba(6, 12, 58, 0.425);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    color: white;
+    width: 1440px;
+    margin-left: 200px;
+    padding-right: 20px;
+}
+
+.column1{
+    flex-direction: column;
+    display: flex;
+}
+
+input, select, textarea{
+    background-color: rgba(3, 3, 68, 0.582);
+    border-radius: 7px;
+    color: white;
+}
+
+.button{
+    background-color: orangered;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}

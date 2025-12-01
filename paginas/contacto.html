@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Llefià Music Fest</h1>
+            <h2>Solicita información o entradas</h2>
+            <div>
+                <nav>
+                    <ul class="lista menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="cartel.html">Cartel</a></li>
+                        <li><a href="horario.html">Horario</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="seccion6">
+            <div class="column1">
+                <h3 class="naranja">Entradas y contacto</h3>
+                <p>Completa este formulario de ejemplo. En el examen se te pedirá algo muy similar en otra página</p>
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" placeholder="Escribe tu nombre" type="text">
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" placeholder="tucorreo@ejemplo.com" id="correo">
+
+                <label for="entrada">Tipo de entrada</label>
+                <select id="entrada">
+                    <option value="">Pase 1 día</option>
+                    <option value="">Pase 3 días</option>
+                    <option value="">Entrada VIP</option>
+                </select>
+
+                <label for="">
+                    <input type="radio" name="" id="">
+                    Sí, quiero novedades y playlists
+                </label>
+                <label for="">
+                    <input type="radio" name="" id="">
+                    No, prefiero no recibir correos
+                </label>
+
+                <label for="mensaje">Mensaje</label> <br>
+                <textarea id="mensaje" placeholder="Dudas sobre horarios, accesos, grupos…" rows="5" cols="30"></textarea>
+
+                <label>
+                    <input required type="checkbox">
+                    Acepto la política de privacidad
+                </label>
+
+                <button class="button" type="submit">Enviar Solicitud</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
